@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import SobreNos from './components/SobreNos';
 import PorQueInvestir from './components/PorQueInvestir';
+import Produtos from './components/Produtos';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <SobreNos />
       <PorQueInvestir />
+      <Produtos />
     </>
   );
 }
