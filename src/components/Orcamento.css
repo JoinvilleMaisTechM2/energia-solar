@@ -1,0 +1,62 @@
+.section-orcamento {
+  background-color: #f5fafa;
+  padding: 40px 20px;
+  text-align: center;
+  color: #004432;
+}
+
+.section-orcamento h2 {
+  color: #014517ab;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  background-color: #e7f5f0;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #c9e3dc;
+}
+
+.form-orcamento {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.campo-form input,
+.campo-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.campo-form input::placeholder,
+.campo-form textarea::placeholder {
+  color: #004432;
+  opacity: 0.8;
+}
+
+.botao-enviar {
+  background-color: #014517ab;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-enviar:hover {
+  background-color: #013a2e;
+}

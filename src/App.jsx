@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import SobreNos from './components/SobreNos';
 import PorQueInvestir from './components/PorQueInvestir';
 import Produtos from './components/Produtos';
+import Orcamento from './components/Orcamento';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <SobreNos />
       <PorQueInvestir />
       <Produtos />
+      <Orcamento />
     </>
   );
 }
