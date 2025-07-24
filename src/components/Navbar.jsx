@@ -1,20 +1,20 @@
-import './Navbar.css'
+import './Navbar.css';
 
 function Navbar() {
     return (
         <nav className="navbar">
             <ul className='navbar-list'>
                 <li className='sobre-nos'>
-                    <a href="#">Sobre Nós</a>
+                    <a href="#sobre-nos">Sobre Nós</a>
                 </li>
                 <li className='porque-investir'>
-                    <a href="#">Por que investir?</a>
+                    <a href="#por-que-investir">Por que investir?</a>
                 </li>
                 <li className='produtos'>
-                    <a href="#">Produtos</a>
+                    <a href="#produtos">Produtos</a>
                 </li>
                 <li className='orcamento'>
-                    <a href="#">Orçamento</a>
+                    <a href="#orcamento">Orçamento</a>
                 </li>
             </ul>
         </nav>
