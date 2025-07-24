@@ -1,7 +1,14 @@
-.secao-sobre-nos {
+.section-sobre-nos {
     padding: 40px 20px;
     background-color: #f5fafa;
-    color: #003d2d;
+
+}
+
+.section-sobre-nos h2 {
+    text-align: center;
+     font-size: 2rem;
+    color: #014517ab; 
+    margin-bottom: 30px;
 }
 
 .container-sobre-nos {
@@ -19,6 +26,7 @@
 }
 
 .sobre-nos-texto {
+    color: #004432;
     font-size: 1.1rem;
     margin-bottom: 30px;
 }
@@ -32,11 +40,12 @@
 }
 
 .dados-mercado h3 {
-    color: #006241;
+    color: #014517ab;
     margin-bottom: 10px;
 }
 
 .dados-mercado ul {
+    color: #004432;
     list-style-type: disc;
     padding-left: 20px;
 }
